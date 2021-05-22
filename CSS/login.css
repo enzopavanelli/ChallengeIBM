@@ -1,0 +1,72 @@
+body {
+    margin: 10% 0 0 0;
+    background-color: rgb(110, 202, 224);
+
+}
+
+.conteiner {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+#login {
+    color: rgb(216, 238, 174);
+}
+
+.inside {
+    background-color: #fff;
+    width: 600px;
+    height: 400px;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    border-radius: 4%;
+}
+
+.forms-home{
+    margin-top: 66px ;
+}
+
+label {
+    font-size: 15px;
+    font-weight: bolder;
+    padding-right: 48%;
+}
+
+input {
+    outline: none;
+    border-radius: 20px;
+    width: 58%;
+    height: 30px;
+    border: none;
+    background-color: aquamarine;
+    padding-left: 20px;
+}
+
+input::placeholder {
+    color: #000;
+}
+
+.usuario {
+    margin-bottom: 30px;
+}
+
+button {
+    width: 20%;
+    height: 35px;
+    border-radius: 50px;
+    border: none;
+}
+
+button:hover {
+    background-color: rgb(212, 166, 81);
+}
+
+a {
+    text-decoration: none;
+    font-weight: bold;
+    color: rgb(235, 122, 81);
+}
+
+
