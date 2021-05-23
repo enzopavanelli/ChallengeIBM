@@ -1,0 +1,129 @@
+body {
+    margin: 5% 0 0 0;
+    background-color: rgb(110, 202, 224);
+}
+
+.conteiner {
+    display: flex;
+    justify-content: center;
+}
+
+#chatbot-title {
+    text-align: center;
+    color: rgb(216, 238, 174);
+}
+
+.inside {
+    background-color: #fff;
+    width: 1000px;
+    height: 640px;
+    border-radius: 4%;
+    display: flex;
+    justify-content: center;
+}
+
+#title-chat {
+    padding-left: 6%;
+}
+
+.chat {
+    background: antiquewhite;
+    width: 50%;
+    margin: 5%;
+    border-radius: 15%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.mensagem-recebida, .mensagem-enviada {
+    background: white;
+    border-radius: 20px;
+    height: 100px;
+    width: 60%;
+    font-size: smaller;
+    padding-left: 5px;
+}
+
+.mensagem-recebida {
+    margin: 28% 0 0 1%;
+}
+
+.mensagem-enviada {
+    margin-left: 38%;
+    background-color: rgb(110, 202, 224);
+}
+
+
+.caixa-text {
+    display: flex;
+    background: white;
+    border-radius: 30px;
+    height: 50px;
+    margin: 4%;
+    align-items: center;
+    padding-left: 10px;
+}
+
+form {
+    width: 92%;
+}
+
+input {
+    width: 95%;
+    outline: none;
+    border: none;
+}
+
+.button-enviar {
+    background-color: rgb(110, 202, 224);
+    border-radius: 100%;
+    width: 30px;
+    display: flex;
+    justify-content: center;
+    height: 31px;
+    align-items: center;
+}
+
+.fa-chevron-right:before {
+    color: white; 
+}
+
+a:link, a {
+    text-decoration: none;
+    color: rgb(100, 170, 87);
+}
+
+.list-button {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.button-atividades {
+    width: 50%;
+    background: aliceblue;
+    height: 130px;
+    border-radius: 30px;
+    text-align: center;
+    padding-top: 25px;
+    margin-left: 20%;
+    margin-bottom: 21%;
+}
+
+#link-atividades {
+    color: burlywood;
+}
+
+#button-logout {
+    float: right;
+    width: 35%;
+    height: 30px;
+    border-radius: 30px;
+    border: 0;
+    font-weight: bold;
+}
+
+#button-logout:hover {
+    background-color: rgb(228, 228, 125);
+}
