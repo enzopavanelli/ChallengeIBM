@@ -1,0 +1,50 @@
+body {
+    margin: 5% 0 0 0;
+    background-color: rgb(110, 202, 224);
+}
+
+.conteiner {
+    display: flex;
+    justify-content: center;
+}
+
+
+#atividades-title {
+    text-align: center;
+    color: rgb(216, 238, 174);
+}
+
+.inside {
+    background-color: #fff;
+    width: 1000px;
+    height: 640px;
+    border-radius: 4%;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    align-items: center;
+}
+
+.up, .down {
+    display: flex;
+}
+
+.chatM, .chatPv, .chatG, .meditacao, .musica, .videos {
+    width: 160px;
+    background: aqua;
+    height: 110px;
+    border-radius: 20px;
+    display: flex;
+    margin-right: 40px;
+    padding-top: 20px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+a:link, a {
+    text-decoration: none;
+    color: rgb(63, 94, 7);
+    font-weight: bolder;
+}
+
