@@ -8,7 +8,7 @@ body {
     justify-content: center;
 }
 
-#chatbot-title {
+#video-title {
     text-align: center;
     color: rgb(216, 238, 174);
 }
@@ -93,8 +93,8 @@ input {
     align-items: center;
 }
 
-.fa-chevron-right:before {
-    color: white; 
+.fa-search:before {
+    color: #fff;
 }
 
 a:link, a {
