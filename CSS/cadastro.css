@@ -31,14 +31,14 @@ body {
     flex-direction: column;
 }
 .forms-home{
-    margin-top: -25px;
+    height: 90%;
     margin-right: 50%;
  
 }
 
 .forms-home2{
     padding-left: 40%;
-    margin-top: -45%;
+    margin-top: -48%;
     height: 0;
 }
 
@@ -62,10 +62,6 @@ input::placeholder {
     color: #000;
 }
 
-.usuario {
-    margin-bottom: 30px;
-}
-
 button {
     width: 20%;
     height: 35px;
@@ -83,14 +79,16 @@ a {
     color: rgb(235, 122, 81);
 }
 
+
 .button-cadastrar{
     margin-left: 95px;
     width: 480px;
+    margin-top: 6%;
 }
 
 .button-cancelar{
-    margin-top: 7px;
-    margin-left: 61px;
+    margin-top: 183px;
+    margin-left: 70px;
     width: 480px;
 }
 
